@@ -22,7 +22,7 @@ jobs:
     - name: Build
       run: |
         npm install
-        ng build --prod --aot  --baseHref="/angularweb/"
+        npm run build --prod --aot --baseHref="/angularweb/"
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
