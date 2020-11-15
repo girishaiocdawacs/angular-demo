@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://girishaiocdawacs.github.io/angularweb'
+  apiUrl: 'http://localhost:4000'
 };
