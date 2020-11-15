@@ -18,9 +18,9 @@ jobs:
         node-version: [14.x]
     steps:
       - uses: actions/checkout@v2
-         with:
-         # Disabling shallow clone is recommended for improving relevancy of reporting
-         fetch-depth: 0
+        with:
+          # Disabling shallow clone is recommended for improving relevancy of reporting
+          fetch-depth: 0
       - name: Cache node modules
         uses: actions/cache@v1
         with:
@@ -50,3 +50,4 @@ jobs:
         run: npm run build --prod
       - name: Run Tests
         run: node ./node_modules/@angular/cli/bin/ng test --no-watch --no-progress --browsers=ChromeHeadlessCI
+        
