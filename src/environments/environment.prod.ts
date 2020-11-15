@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://girishaiocdawacs.github.io/angularweb'
+  apiUrl: 'https://girishaiocdawacs.github.io/angularweb'
 };
